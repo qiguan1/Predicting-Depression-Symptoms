@@ -125,22 +125,21 @@ ID, AuthorID, Date, Chat Content, Word Count, and indicators for the seven targe
 
 <!-- EDA -->
 ## EDA
-Distribution of symptoms
+Distribution of text length in user messages
 
-<img src="https://github.com/qiguan1/Predicting-Depression-Symptoms/blob/main/symptom_hist.png?raw=true" width="510" height="300" />
+<img src="https://user-images.githubusercontent.com/35647593/130553587-05c1a65a-533c-411b-a670-563c69469d4e.png" width="510" height="300" />
 
 Top N words 
 
-<img src="https://github.com/qiguan1/Predicting-Depression-Symptoms/blob/main/dist_top_n_words.png?raw=true" width="510" height="300" />
-
+<img src="https://user-images.githubusercontent.com/35647593/130553778-8968beb8-d6bc-4f56-8bf2-7d59c29854c5.png" width="510" height="450" />
 
 Word Cloud Top Words
 
-<img src="https://github.com/qiguan1/Predicting-Depression-Symptoms/blob/main/word_cloud.png?raw=true" width="510" height="300" />
+<img src="https://user-images.githubusercontent.com/35647593/130553885-4845d7d5-a3da-4ec4-9bcd-03a95460a435.png" width="510" height="500" />
 
 Topics
 
-<img src="https://github.com/qiguan1/Predicting-Depression-Symptoms/blob/main/topics.png?raw=true" width="510" height="300" />
+<img src="https://user-images.githubusercontent.com/35647593/130553996-a4fbf81c-9df9-4e57-93c4-b177b6a089bb.png" width="510" height="510" />
 
 
 <!-- MODEL ARCHITECTURE -->
@@ -148,7 +147,7 @@ Topics
 
 Model Framework
 
-<img src="https://github.com/qiguan1/Predicting-Depression-Symptoms/blob/main/model_architecture.JPG?raw=true" width="580" height="300" />
+<img src="https://user-images.githubusercontent.com/35647593/130554558-58f5ba74-3061-4af6-b51a-78689454cae6.JPG" width="510" height="300" />
 
 This figure shows the Model training design of the Depression predictor. The discord chat server data is collected and is stored securely in a cloud behind a secure layer. The Chat data from depression channel is analyzed by a Symptom Extraction layer (EEL). The SEL is an asynchronous process that consists of training models such as Random Forest (RF), Logistic Support Vector Machine (SVM), Naïve Bayes (NB) and Convolution Neural Network (CNN). The SEL results can be symptom predictions that can be aggregated by medical professionals to predict depression.
 
